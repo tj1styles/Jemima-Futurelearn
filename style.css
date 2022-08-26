@@ -1,0 +1,4077 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+.links {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.define {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+.link{
+    list-style: none;
+    font-weight: 180;
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(222,0,165);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0px;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    transition: all 1s ease;
+    overflow-y: hidden;
+}
+.link:hover{
+    color: blue;
+}
+.lino {
+    list-style: none;
+    font-weight: 180;
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(222,0,165);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0px;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    transition: all 1s ease;
+    overflow-y: hidden;
+}
+.lino:hover {
+    color: blue;
+}
+.kill {
+    position: absolute;
+    top: 29px;
+    left: 370px;
+    color: rgb(222,0,165);
+    font-size: 30px;
+}
+
+.loop {
+    position: absolute;
+    top: 29px;
+    left: 262px;
+    color: rgb(222,0,165);
+    font-size: 30px;
+}
+
+.searchinput {
+    width: 47%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    position: relative;
+}
+.input {
+    width: 200px;
+    padding-left: 10px;
+    margin-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+.mop{
+    position: absolute;
+    top: 15px;
+    left: 415px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(222,0,165);
+    padding: 11px;
+}
+.btn {
+    background: transparent;
+    color: rgb(222,0,165);
+    margin-left: 40px;
+    border: none;
+    font-size: 12px;
+    margin-top: 9px;
+    font-family: fantasy;
+    padding: 5px;
+    margin-right: 10px;
+    transition: all 0.8s ease;
+    width: 200px;
+}
+
+.bto {
+    background-color: rgb(222,0,165);
+    margin-top: 12px;
+    border: none;
+    font-size: 13px;
+    color: white;
+    margin-left: 20px;
+    font-family: fantasy;
+    padding: 13px;
+    margin-left: 20px;
+    width: 200px;
+}
+.contain2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(3,1,56);
+    padding: 50px 70px;
+}
+
+.texty {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+}
+.cardi {
+    width: 30%;
+    background-color: transparent;
+    margin-left: 80px;
+   
+}
+.txt {
+    margin-top: 140px;
+    margin-right: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: white;
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bbn {
+    padding: 15px;
+    margin-left: 60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(222,0,165);
+    border: 1px solid white; 
+    font-size: large;
+}
+.contain3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+    position: absolute;
+    top: 490px;
+}
+
+
+.box1 {
+    width: 14%;
+    background-color: rgb(0,165,166);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.box2 {
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 2px gray;
+    margin-bottom: 30px;
+}
+.box3 {
+    width: 13%;
+    background-color: rgb(225,37,27);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.box4 {
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+} 
+.ill{
+   width: 98px;
+}
+.box6 {
+    width: 13%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box5 {
+    width: 14%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(245,189,0);
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box7 {
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(0,46,95);
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 2px gray;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.box8 {
+    width: 14%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.contain4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 620px;
+    justify-content: center;
+    margin-top: 1px;
+    
+}
+.box11 {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    box-shadow: 4px grey;
+    padding: 30px;
+    border-radius: 10px;
+}
+.box12{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 4px grey;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(161,0,255);
+    margin-left: 10px;
+}
+.box13 {
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 2px gray;
+    padding: 10px;
+    background-color: rgb(1,30,65);
+}
+.box14 {
+    width: 11%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 5px grey;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.box15{
+    width: 14%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(0,79,50);
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.box16 {
+    width: 14%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(1,95,188); 
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.opol {
+    width: 90px;
+}
+.container9 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    margin-top: 300px;
+}
+.box00 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: transparent;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.box99 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(3,1,56);
+    margin-top: 200px;
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+}
+.boxy {
+    padding: 2px;
+    background-color: rgb(222,0,165);
+}
+.hipo {
+    font-size: 48px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+.texty {
+    flex-direction: row;
+}
+.ipoo {
+    background-color: rgb(222,0,165);
+    border: none;
+    color: rgb(222,0,165);
+    margin-top: 70px;
+    position: absolute;
+    top: 820px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.rice{
+   font-size: 48px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   color: rgb(3,1,56);
+
+}
+.calcium {
+    margin-top: -40px;
+    font-size: 22px;
+    margin-left: 30px;
+    color: rgb(3,1,56);
+}
+.earn {
+    margin-left: 30px;
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(3,1,56);
+}
+.lipi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    margin-left: 160px;
+
+}
+.list {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 160px;
+}
+.last {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.jik {
+    position: absolute;
+    left: 40px;
+    top: 2190px;
+    font-size: 18px;
+    color: gold;
+    font-weight: 100;
+}
+.jop {
+    position: absolute;
+    left: 40px;
+    top: 2170px;
+    font-size: 18px;
+    color: gold;
+    font-weight: 100;
+}
+.joke {
+    position: absolute;
+    left: 40px;
+    top: 2150px;
+    font-size: 18px;
+    color: gold;
+    font-weight: 100;
+}
+.ttxtt {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 180px;
+    color: white;
+}
+.bnn {
+    margin-left: 190px;
+    margin-top: 40px;
+    font-weight: 700;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    color: white;
+    background: rgb(222,0,165);
+    transition: all 1s ease;
+}
+.bnn:hover {
+    background: black;
+    color: white;
+}
+.wip {
+    position: absolute;
+    top: 1090px;
+    left: 90px;
+    padding: 15px 15px;
+    font-weight: 700;
+    border: 1px solid rgb(222,0,165);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(222,0,165);
+    background: transparent;
+    transition: all 1s ease;
+}
+.wip:hover {
+    background: black;
+    color: white;
+}
+.container8 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgb(14,7,52);
+    padding: 50px 30px;
+    margin-top: 100px;
+    position: relative;
+}
+.small {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(14,7,52);
+}
+.big {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    position: relative;
+}
+.division {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img {
+    width: 30%;
+    margin-left: 40px;
+}
+.hue {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+}
+.buttonlo {
+    background-color: rgb(222,0,165);
+    color: rgb(222,0,165);
+    margin-top: 70px;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 5px;
+    border: none;
+}
+.nimo {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -95px;
+}
+.indigo {
+    position: absolute;
+    top: 240px;
+    padding: 15px 15px;
+    background-color: rgb(222,0,165);
+    border: 1px solid white;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+.conttainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+ .divvi {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+.pile {
+    color: rgb(3,1,56);
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pilo {
+    color: rgb(3,1,56);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pool {
+    color: rgb(3,1,56);
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.teh {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    background-color: rgb(222,0,165);
+    color: rgb(222,0,165);
+    border: none;
+    margin-left: -300px;
+}
+.olib {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3,1,56);
+    margin-left: 30px;
+    line-height: 24px;
+}
+.rasegan {
+    padding: 10px 10px;
+    border: none;
+    background: rgb(222,0,165);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 20px;
+    transition:  all 0.8s ease;
+
+}
+.rasegan:hover {
+    background-color: blue;
+}
+.container12 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+}
+.plp {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+.yy {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-left: 7px;
+}
+.qq {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.ee {
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    position: absolute;
+    top: 310px;
+    left: 20px;
+}
+.glass {
+    position: absolute;
+    top: 600px;
+    font-size: 14px;
+    left: 1px;
+    color: darkslategrey;
+}
+.tt {
+    position: absolute;
+    top: 310px;
+    left: 150px;
+    color: darkslategrey;
+}
+.vv {
+    padding: 5px 5px;
+    margin-top: 115px;
+    background-color: lightgrey;
+    margin-left: 7px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: grey;
+}
+.pom {
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    position: absolute;
+    top: 310px;
+    left: 330px;
+}
+.plp {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.gra {
+    position: absolute;
+    color: darkslategrey;
+    top: 310px;
+    left: 460px;
+}
+.pop {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.vi {
+    margin-top: 90px;
+    padding: 5px 5px;
+    color: grey;
+    background: lightgrey;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.pro {
+    width: 18%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.div0 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+.lippy {
+    width: 135%;
+    height: 157px;
+}
+.qoute {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.gta {
+    position: absolute;
+    color: darkslategrey;
+    top: 1010px;
+    left: 650px;
+}
+.gri {
+    position: absolute;
+    color: darkslategrey;
+    top: 310px;
+    left: 770px;
+}
+.vp {
+    margin-top: 75px;
+    padding: 5px 5px;
+    color: grey;
+    background: lightgrey;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.pip {
+    margin-left: 40px;
+    width: 19%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -5px;
+}
+piccio {
+    width: 135%;
+    height: 157px;
+}
+.div7 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-left: 7px; 
+}
+.qute {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.vibe {
+    margin-top: 75px;
+    padding: 5px 5px;
+    color: grey;
+    background: lightgrey;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.pjm {
+    position: absolute;
+    color: darkslategrey;
+    top: 310px;
+    left: 950px;
+}
+.gji {
+    position: absolute;
+    color: darkslategrey;
+    top: 310px;
+    left: 1100px;
+}
+.containerr1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 700px;
+}
+.dilemma {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 700px;
+}
+.dil {
+    color: rgb(3,1,56);
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.emma {
+    color: rgb(3,1,56);
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.bttn {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    background-color: rgb(222,0,165);
+    color: rgb(222,0,165);
+    border: none;
+    margin-left: -400px;
+}
+.containera {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.boxy1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.boxy2 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.boxy3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 45px;
+}
+.lopp {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-left: 7px; 
+    margin-top: 5px;
+}
+.olb {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3,1,56);
+    margin-left: 0px;  
+}
+.ras0gan {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(222,0,165);
+    color: white;
+    padding: 10px 10px;
+}
+.booky {
+    position: absolute;
+    top: 3550px;
+    font-size: 15px;
+    color: grey;
+    left: 50px;
+}
+.hour {
+    position: absolute;
+    top: 3550px;
+    font-size: 15px;
+    color: grey;
+    left: 150px;
+}
+.starr {
+    position: absolute;
+    top: 3550px;
+    font-size: 15px;
+    color: grey;
+    left: 240px;
+}
+.spooky {
+    position: absolute;
+    top: 3550px;
+    font-size: 15px;
+    color: grey;
+    left: 430px;
+}
+.houi {
+    position: absolute;
+    top: 3550px;
+    font-size: 15px;
+    color: grey;
+    left: 530px;
+}
+.starry {
+    position: absolute;
+    top: 3550px;
+    font-size: 15px;
+    color: grey;
+    left: 630px;
+}
+.spookydopsy {
+    position: absolute;
+    top: 3550px;
+    font-size: 15px;
+    color: grey;
+    left: 820px;
+}
+.hola {
+    position: absolute;
+    top: 3550px;
+    font-size: 15px;
+    color: grey;
+    left: 925px;
+}
+.starra {
+    position: absolute;
+    top: 3550px;
+    font-size: 15px;
+    color: grey;
+    left: 1025px;
+}
+.viperr {
+    margin-top: 95px;
+    padding: 5px 5px;
+    color: grey;
+    background: lightgrey;
+    margin-right: 230px;
+    border: none;
+}
+.viper1 {
+    margin-top: 75px;
+    padding: 1px 5px;
+    color: grey;
+    background: lightgrey;
+    margin-right: 230px;
+    border: none;
+}
+.viip {
+    margin-top: 75px;
+    padding: 1px 5px;
+    color: grey;
+    background: lightgrey;
+    margin-right: 200px;
+    border: none;
+}
+.containeril {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.miniature {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btton {
+    margin-top: 130px;
+    margin-bottom: 30px;
+    background-color: rgb(222,0,165);
+    color: rgb(222,0,165);
+    border: none;
+    margin-left: -400px;
+}
+.container009 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   
+}
+.collage {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+.chuc {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.olab {
+    margin-top: 150px;
+    margin-left: -85px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(3,1,56);
+}
+.spookydipsy {
+    position: absolute;
+    top: 4190px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 120px;
+}
+.holia {
+    position: absolute;
+    top: 4190px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 220px;
+}
+.stara {
+    position: absolute;
+    top: 4190px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 320px;
+}
+.spookydapsy {
+    position: absolute;
+    top: 4190px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 730px;
+}
+.holii {
+    position: absolute;
+    top: 4190px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 840px;
+}
+.stira {
+    position: absolute;
+    top: 4190px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 950px;
+}
+.lola {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 20px
+}
+.loli {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 330px
+}
+.lolo {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 610px
+}
+.sun {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 900px
+}
+.land {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 160px
+}
+.lind {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 470px
+}
+.linda {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 750px
+}
+.lindar {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 1050px
+}
+.doop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color: rgb(3,1,56);
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 400px;
+}
+.coca {
+    font-size: 38px;
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.btti {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    background-color: rgb(222,0,165);
+    color: rgb(222,0,165);
+    border: none;
+    margin-left: -150px;
+}
+.cool {
+    color: rgb(222,0,165);
+    font-size: 20px;
+    position: absolute;
+    top: 4450px;
+    left: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.coel {
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 4450px;
+    left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.coil {
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 4450px;
+    left: 580px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.coal {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 4450px;
+    left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.divy1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    position: absolute;
+    top: 4600px;
+    left: 150px;
+}
+.divy2 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 4600px;
+    left: 450px;
+}
+.divy3 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 4600px;
+    left: 750px;
+}
+.divy4 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 4600px;
+    left: 1050px;
+}
+.opon {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.opin {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.poan {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.opan {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.oila {
+    color: white;
+    margin-top: 7px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pola {
+    color: white;
+    margin-top: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.lippi {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgb(58,52,58);
+    padding: 60px 50px;
+}
+.face {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    font-size: 25px;
+    color: white;
+}
+.fice {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    font-size: 25px;
+    color: white;
+}
+.fece {
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    font-size: 25px;
+    color: white;
+}
+.fzce {
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    font-size: 25px;
+    color: white;
+}
+.fxce {
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    font-size: 25px;
+    color: white;
+}
+.sipo {
+    position: absolute;
+    width: 8%;
+    top: 50px;
+    left: 1100px;
+}
+.containercc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgb(74,77,85);
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.every {
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+.coco {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    transition: all 0.8s ease;
+}
+.coco:hover {
+    color: blue;
+}
+.coi {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    transition: all 0.8s ease;    
+    
+}
+.coi:hover {
+    color: blue;
+}
+.laroi {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    color: white;
+    margin-top: 5px;
+    transition: all 0.8s ease;
+}
+.laroi:hover {
+    color: blue;
+} 
+.good {
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin-left: 30px;
+}
+.boy {
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin-left: 30px;
+}
+.deserves {
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin-left: 30px;
+}
+.favour {
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin-left: 30px;
+}
+.always {
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin-left: 30px;
+}
+.container1234 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgb(237,237,238);
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.lily {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 70px;
+
+}
+.lg {
+    font-weight: 600;
+    font-size: 30px;
+    color: darkslategrey;
+}
+.lody {
+    font-weight: 300;
+    font-size: 30px;
+    color: darkslategrey;
+}
+.ololo {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+}
+.lilo {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 700px;
+}
+.container556 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    background: rgb(3,1,56);
+    padding-top: 40px;
+    padding-bottom: 200px;
+    padding-right: 40px;
+    position: relative;
+    padding-left: 40px; 
+}
+.droolsemi {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 350px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background: white;
+    position: relative;
+    overflow-y: hidden;
+}
+.tehilla {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(3,1,56);
+}
+
+.ridge{
+    background: rgb(222,0,165);
+    width: 10px;
+    padding: 4px 22px;
+    margin-top: 0px;
+    position: absolute;
+    bottom: 330px;
+}
+.myname {
+    width: 31%;
+    height: 61vh;
+    position: absolute;
+    left: 500px;
+}
+.pikin {
+    width: 20%;
+    background: rgb(3,1,56);
+    padding: 160px 90px;
+    position: absolute;
+    right: 170px;
+}
+.girlpikin {
+    width: 20%;
+    background: rgb(3,1,56);
+    padding-top: 52px;
+    padding-bottom: 52px;
+    padding-left: 300px;
+    padding-right: 20px;
+    position: absolute;
+    right: 290px;
+    top: 360px;
+}
+.boxar1 {
+    position: absolute;
+    top: 4950px;
+    right: 400px;
+    width: 17%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px darkslategrey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.conta {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.sarada{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.chocho {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.boxar2 {
+    position: absolute;
+    top: 5170px;
+    right: 650px;
+    width: 17%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px darkslategrey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+.boxar3 {
+    position: absolute;
+    top: 5170px;
+    right: 400px;
+    width: 17%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px darkslategrey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 70px;
+}
+.boxar4 {
+    position: absolute;
+    top: 5390px;
+    right: 910px;
+    width: 17%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px darkslategrey;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.boxar5 {
+    position: absolute;
+    top: 5390px;
+    right: 650px;
+    width: 17%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px darkslategrey;
+    padding-left: 10px;
+    padding-right: 10px;  
+    padding-bottom: 40px;
+}
+.boxar6 {
+    position: absolute;
+    top: 5390px;
+    right: 400px;
+    width: 17%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px darkslategrey;
+    padding-left: 10px;
+    padding-right: 10px;  
+    padding-bottom: 10px;
+}
+.containering {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    position: relative;
+    overflow-y: hidden;
+}
+.mistuki {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-top: 90px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.btty {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(222,0,165);
+    color: rgb(222,0,165);
+    border: none;
+    margin-left: 10px;
+    margin-right: 550px;
+}
+.dal {
+    color: rgb(3,1,56);
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+.bass {
+    position: absolute;
+    font-size: 20px;
+    color: gold;
+    top: 230px;
+    left: 40px;
+}
+.balli {
+    position: absolute;
+    font-size: 20px;
+    color: gold;
+    top: 230px;
+    left: 60px;
+}
+.base {
+    position: absolute;
+    font-size: 20px;
+    color: gold;
+    top: 230px;
+    left: 80px;
+}
+.basl {
+    position: absolute;
+    font-size: 20px;
+    color: gold;
+    top: 230px;
+    left: 100px;
+}
+.baso {
+    position: absolute;
+    font-size: 20px;
+    color: gold;
+    top: 230px;
+    left: 120px;
+}
+.love {
+    position: absolute;
+    font-size: 20px;
+    color: grey;
+    top: 230px;
+    left: 140px;
+}
+.lippp {
+    position: absolute;
+    font-size: 25px;
+    color: grey;
+    top: 280px;
+    left: 40px;
+}
+.convainer {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(./background-desktop-9cc3281db4e1d7b776bb6bee39ff8981.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.chochi {
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.oliber {
+    background: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    height: 4vh;
+    margin-top: 5px;
+}
+.tails {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+    flex-wrap: wrap;
+    background-color: rgb(3,1,56);
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.tiils {
+    width: 24%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(3,1,56);
+    border-radius: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: 20px;
+    z-index: 70;
+}
+.tail {
+    width: 24%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(3,1,56);
+    border-radius: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: 20px;
+    z-index: 70;
+}
+.taals {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+    flex-wrap: wrap;
+    background-color: rgb(3,1,56);
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+.chocha {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px; 
+    margin-left: 90px;
+}
+.leaf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    margin-top: 4px;  
+    margin-right: 40px;
+}
+.jikky {
+    position: absolute;
+    top: 6385px;
+    left: 192px;
+    color: white;
+    font-size: 23px;
+}
+.jacky {
+    position: absolute;
+    top: 6385px;
+    left: 570px;
+    color: white;
+    font-size: 23px;
+}
+.jocky {
+    position: absolute;
+    top: 6385px;
+    left: 1050px;
+    color: white;
+    font-size: 23px;
+}
+.conrainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(3,1,56);
+    padding: 200px;
+    justify-content: center;
+    position: relative;
+}
+.top {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    margin-top: 10px; 
+}
+.divo1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 320px;
+    left: 155px;
+    border-radius: 5px;
+    text-align: center;
+    height: 20vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.olaf {
+    color: rgb(222,0,165);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.choche {
+    font-size: 17px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.divo2 {
+    width: 25%;
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 320px;
+    left: 510px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.olab {
+    font-size: 15px;
+    color: rgb(3,1,56);
+    margin-top: 30px;
+}
+.divo3 {
+    width: 25%;
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 320px;
+    left: 865px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.loyal {
+    width: 25px;
+    margin-top: 220px;
+    z-index: 400;
+    margin-left: -50px;
+}
+.layal {
+    width: 25px;
+    margin-top: 220px;
+    z-index: 400;
+    left: 50px;
+}
+.deve {
+    width: 21%;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.deva {
+    width: 21%;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.devi {
+    width: 21%;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.devo {
+    width: 21%;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.conbainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+.jom {
+    width: 90px;
+    background-color: rgb(222,0,165);
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    border: none;
+    color: rgb(222,0,165);
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.conhainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.neon {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+.jim {
+    color: rgb(222,0,165);
+    background-color: rgb(222,0,165);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 60px;
+    margin-left: 50px;
+    border: none;
+}
+.olob {
+    font-size: 20px;
+    color: rgb(3,1,56);
+    margin-top: 40px;
+    font-weight: 400;
+    margin-left: -70px;
+}
+.bony {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    margin-left:30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(222,0,165);
+}
+.goo {
+    border-radius: 5px;
+}
+.ploner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 20px 60px 20px;
+}
+.libi {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin-left: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.loner {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(222,0,165);
+}
+.piler {
+    font-size: 15px;
+    color: black;
+}
+.jem {
+    margin-top: 95px;
+    margin-top: -40px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(222,0,165);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 600px;
+
+}
+.lop {
+    width: 150px;
+}
+.loony {
+    width: 50px;
+}
+.likky {
+    width: 130px;
+}
+.viloker {
+    width: 150px;
+}
+.killa {
+    width: 100%;
+}
+.q0 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px){
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        overflow-x: hidden;
+        
+    }
+    .logo {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .link {
+     flex-direction: column;   
+    list-style: none;
+    font-weight: 180;
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(222,0,165);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    transition: all 1s ease;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-bottom: 3px;
+    line-height: 35px;
+    }
+    .searchinput {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .input {
+        width: 230px;
+        padding: 15px;
+        margin-top: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: grey;
+    }
+    .contain2 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color:rgb(3,1,56);
+        padding: 10px 20px;
+    }
+    .texty {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cardi {
+        width: 100%;
+        background-color: transparent;
+        margin-right: 50px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    .txt {
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 30px;
+        font-size: 18px;
+        color: white;
+        padding: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .bbn {
+        padding: 10px;
+        margin-left: 60px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgb(222,0,165);
+        border: 1px solid white; 
+        font-size: large;
+    }
+    .contain3 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: transparent;
+        margin-top: 300px;
+    }
+    .box1 {
+        width: 40%;
+        background-color: rgb(0,165,166);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .box2 {
+        width: 23%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 20px;
+        box-shadow: 2px gray;
+        margin-bottom: 30px;
+    }
+    .box4 {
+        width: 23%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 20px;
+        margin-bottom: 26px;
+    } 
+    .box3 {
+        width: 40%;
+        background-color: rgb(225,37,27);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        border-radius: 10px;
+        padding: 5px 5px;
+    }
+
+    .ill{
+       width: 98px;
+    }
+    .box6 {
+        width: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .box5 {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(245,189,0);
+        margin-left: 0px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        padding-bottom: 0px;
+        padding-top: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-bottom: 10px;
+    }
+  
+    .box8 {
+        width: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 65px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .box7 {
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(0,46,95);
+        border-radius: 10px;
+        margin-left: 20px;
+        box-shadow: 2px gray;
+        margin-bottom: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .contain4 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 1300px;
+        justify-content: center;
+        margin-top: 1px;
+        
+    }
+    .box11 {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        box-shadow: 4px grey;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .box12{
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-shadow: 4px grey;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: rgb(161,0,255);
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .box13 {
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 20px;
+        box-shadow: 2px gray;
+        padding: 10px;
+        background-color: rgb(1,30,65);
+        margin-top: 10px;
+    }
+    .box14 {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-shadow: 5px grey;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        margin-left: 10px;
+        padding-right: 30px;
+        padding-left: 55px;
+        margin-top: 10px;
+    }
+    .box15{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(0,79,50);
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .box16 {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(1,95,188); 
+        margin-left: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .container9 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;  
+        margin-top: 600px;
+    }
+    .box00 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: transparent;
+        margin-top: 90px;
+        margin-left: 0px;
+    }
+    .box99 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color:rgb(3,1,56);
+        margin-top: 70px;
+        margin-left: 0px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        border-radius: 10px;
+    }
+    .boxy {
+        padding: 2px;
+        background-color: rgb(222,0,165);
+    }
+    .hipo {
+        font-size: 30px;
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+    
+    }
+    .rice{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        color: rgb(3,1,56);
+     
+     }
+     .calcium {
+        margin-top: 20px;
+        font-size: 22px;
+        margin-left: 30px;
+        color: rgb(3,1,56);
+    }
+    .earn {
+        margin-left: 30px;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgb(3,1,56);
+    }
+    .wip {
+        position: absolute;
+        top: 1979px;
+        left: 90px;
+        padding: 15px 15px;
+        font-weight: 700;
+        border: 1px solid rgb(222,0,165);
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(222,0,165);
+        background: transparent;
+        transition: all 1s ease;
+    }
+    .wip:hover {
+        background: black;
+        color: white;
+    }
+    .ipoo {
+        background-color: rgb(222,0,165);
+        border: none;
+        color: rgb(222,0,165);
+        margin-top: 70px;
+        position: absolute;
+        top: 1730px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    .list {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+    .last {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .ttxtt {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin-top: 30px;
+        margin-left: 80px;
+        color: white;
+    }
+    .bnn {
+        margin-left:90px;
+        margin-top: 40px;
+        font-weight: 700;
+        border: 1px solid white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        color: white;
+        background: rgb(222,0,165);
+        transition: all 1s ease;
+    }
+    .lipi {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 15px;
+        color: white;
+        margin-left: 60px;
+    }
+    .container8 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: rgb(14,7,52);
+        padding: 120px 30px;
+        margin-top: 100px;
+        position: relative;
+    }
+    .small {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(14,7,52);
+    }
+    .big {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 40px;
+        position: relative;
+        padding-bottom: 80px;
+    }
+    .nimo {
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 25px;
+    }
+    .indigo {
+        position: absolute;
+        top: 310px;
+        padding: 15px 15px;
+        background-color: rgb(222,0,165);
+        border: 1px solid white;
+        font-weight: 700;
+        font-size: 12px;
+        color: white;
+    }
+    .buttonlo {
+        background-color: rgb(222,0,165);
+        color: rgb(222,0,165);
+        margin-top: 70px;
+        margin-bottom: 40px;
+        position: absolute;
+        top: 65px;
+        border: none;
+    }
+    .container12 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        position: absolute;
+        top: 3800px;
+        left: 100px;
+    }
+    .conttainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .pile {
+        color: rgb(3,1,56);
+        font-size: 30px;
+        font-weight: 400;
+        margin-left: 30px;
+        margin-top: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .olib {
+        font-size: 15px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(3,1,56);
+        margin-left: 30px;
+        line-height: 24px;
+        margin-top: -50px;
+    }
+    .rasegan {
+        padding: 10px 10px;
+        border: none;
+        background: rgb(222,0,165);
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        margin-left: 30px;
+        margin-top: 20px;
+        transition:  all 0.8s ease;
+    
+    }
+    .rasegan:hover {
+        background-color: blue;
+    }
+    .pop {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .plp {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+    .vv {
+        margin-top: 140px;
+        margin-left: -150px;
+    }
+    .pro {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .div0 {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        margin-left: 7px;
+        margin-top: 5px;
+    }
+    .lippy {
+        width: 135%;
+        height: 157px;
+    }
+    .qoute {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+        margin-left: 7px;
+    }
+    .gta {
+        position: absolute;
+        color: darkslategrey;
+        top: 1010px;
+        left: 650px;
+    }
+    .gri {
+        position: absolute;
+        color: darkslategrey;
+        top: 310px;
+        left: 770px;
+    }
+    .vp {
+        margin-top: 75px;
+        padding: 5px 5px;
+        color: grey;
+        background: lightgrey;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 5px;
+    }
+    .pip {
+        margin-left: 0px;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .qq {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        margin-left: 7px;
+    }
+    .q0 {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 40px;
+        margin-left: -165px;
+    }
+    .vi {
+        margin-top: 135px;
+        margin-left: -150px;
+    }
+    .lippy {
+        width: 270px;
+    }
+    .containera {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 300px;
+        margin-left: 60px;
+    }
+    .containerr1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1500px;
+    }
+    .dilemma {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    .dil {
+        color: rgb(3,1,56);
+        font-size: 30px;
+        font-weight: 400;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+    }
+    .emma {
+        color: rgb(3,1,56);
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+    }
+    .bttn {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        background-color: rgb(222,0,165);
+        color: rgb(222,0,165);
+        border: none;
+        margin-left: 10px;
+    }
+    .olab {
+        font-size: 15px;
+        color: rgb(3,1,56);
+        margin-left: 15px;
+    }
+    .containera {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .boxy1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .boxy2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    .boxy3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    .containeril {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    .miniature {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .btton {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        background-color: rgb(222,0,165);
+        color: rgb(222,0,165);
+        border: none;
+        margin-left: -400px;
+    }
+    .dil {
+        color: rgb(3,1,56);
+        font-size: 30px;
+        font-weight: 400;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .emma {
+        color: rgb(3,1,56);
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+    }
+    .container009 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+       
+    }
+    .collage {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    .chuc {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .vv {
+        padding: 5px 5px;
+        margin-top: 100px;
+        background-color: lightgrey;
+        margin-left: 30px;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: grey;
+    }
+    .doop {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        background-color: rgb(3,1,56);
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 800px;
+        position: relative;
+    }
+    .coca {
+        font-size: 30px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+    }
+    .cool {
+        color: rgb(222,0,165);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        position: absolute;
+        top: 150px;
+        left: 5px;
+
+    }
+    .coel {
+        margin-left: 5px;
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        position: absolute;
+        top: 150px;
+        left: 200px;
+    }
+    .coil {
+        margin-left: 5px;
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        position: absolute;
+        top: 190px;
+        left: 5px;
+    }
+    .coal {
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        position: absolute;
+        top: 190px;
+        left: 200px;
+    }
+    .divy1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 250px;
+        left: 5px;
+        
+    
+    }
+    .divy2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 400px;
+        left: 5px;
+        position: absolute;
+        top: 400px;
+        left: 5px;
+    }
+    .divy3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 550px;
+        left: 5px;
+      
+    }
+    .divy4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 700px;
+        left: 5px;
+       
+    }
+    .opon {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .opin {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .poan {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .opan {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .oila {
+        color: white;
+        margin-top: 7px;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .pola {
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+    }
+    .division {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container556 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; 
+        background: rgb(3,1,56);
+        padding-top: 40px;
+        padding-bottom: 500px;
+        padding-right: 40px;
+        position: relative;
+        padding-left: 40px;
+    }
+    .droolsemi {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 40px;
+        padding-bottom: 300px;
+        padding-right: 40px;
+        padding-left: 40px;
+        background: white;
+        position: relative;
+        overflow-y: hidden;
+    }
+    .tehilla {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color: rgb(3,1,56);
+    }
+    
+    .ridge{
+        background: rgb(222,0,165);
+        width: 10px;
+        padding: 4px 22px;
+        margin-top: 0px;
+        position: absolute;
+        top: 7000px;
+        left: 20px;
+        z-index: 800;
+    }
+    .myname {
+        width: 31%;
+        height: 61vh;
+        position: absolute;
+        left: 220px;
+    }
+    .pikin {
+        width: 20%;
+        background: rgb(3,1,56);
+        padding: 10px 10px;
+        position: fixed;
+    }
+    .girlpikin {
+        width: 2%;
+        background: rgb(3,1,56);
+        padding-top: 52px;
+        padding-bottom: 12px;
+        padding-left: 3px;
+        padding-right: 10px;
+        position: absolute;
+
+    }
+    .boxar1 {
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px 2px darkslategrey;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 8800px;
+        left: 0px;
+    }
+    .conta {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-bottom: 200px;
+    }
+    .sarada{ 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .chocho {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .boxar2 {
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px darkslategrey;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 8950px;
+        left: 0px;
+
+    }
+    .boxar3 {
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px darkslategrey;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        position: absolute;
+        top: 9120px;
+        left: 0px;
+    }
+    .boxar4 {
+        width: 100%;
+        background-color:  white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px darkslategrey;
+        padding-left: 10px;
+        padding-right: 10px; 
+        position: absolute;
+        top: 9280px;
+        left: 0px;
+    }
+    .boxar5 {
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px darkslategrey;
+        padding-left: 10px;
+        padding-right: 10px;  
+        padding-bottom: 40px;
+        position: absolute;
+        top: 9445px;
+        left: 0px;
+    }
+    .boxar6 {
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px darkslategrey;
+        padding-left: 10px;
+        padding-right: 10px;  
+        padding-bottom: 10px;
+        position: absolute;
+        top: 9620px;
+        left: 0px;
+    }
+    .containering {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+        position: relative;
+        overflow-y: hidden;
+    }
+    .mistuki {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-top: 90px;
+        position: relative;
+        padding-bottom: 100px;
+    }
+    .btty {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        background-color: rgb(222,0,165);
+        color: rgb(222,0,165);
+        border: none;
+        margin-left: 10px;
+        margin-right: 300px;
+    }
+    .dal {
+        color: rgb(3,1,56);
+        font-size: 30px;
+        font-weight: 400;
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+    }
+    .bass {
+        position: absolute;
+        font-size: 20px;
+        color: gold;
+        top: 230px;
+        left: 40px;
+    }
+    .balli {
+        position: absolute;
+        font-size: 20px;
+        color: gold;
+        top: 230px;
+        left: 60px;
+    }
+    .base {
+        position: absolute;
+        font-size: 20px;
+        color: gold;
+        top: 230px;
+        left: 80px;
+    }
+    .basl {
+        position: absolute;
+        font-size: 20px;
+        color: gold;
+        top: 230px;
+        left: 100px;
+    }
+    .baso {
+        position: absolute;
+        font-size: 20px;
+        color: gold;
+        top: 230px;
+        left: 120px;
+    }
+    .love {
+        position: absolute;
+        font-size: 20px;
+        color: grey;
+        top: 230px;
+        left: 140px;
+    }
+    .lippp {
+        position: absolute;
+        font-size: 25px;
+        color: grey;
+        top: 280px;
+        left: 40px;
+    }
+    .convainer {
+        width: 100%;
+        padding: 150px;
+        display: flex;
+        background-color: whitesmoke;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-image: url(./background-desktop-9cc3281db4e1d7b776bb6bee39ff8981.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+    .chochi {
+        font-size: 15px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+    }
+    .oliber {
+        background: transparent;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 80px;
+        height: 4vh;
+        margin-top: 5px;
+    }
+    .tails {
+        width: 300%;
+        display: flex;
+        flex-direction: row;
+        height: 35vh;
+        flex-wrap: wrap;
+        background-color: rgb(3,1,56);
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+    .tiils {
+        width: 300%;
+        height: 40vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(3,1,56);
+        border-radius: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-left: 0px;
+        z-index: 70;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .tail {
+        width: 300%;
+        height: 40vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(3,1,56);
+        border-radius: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-left: 0px;
+        z-index: 70;
+        margin-top: 10px;
+        margin-right: 10px;
+        
+    }
+    .taals {
+        width: 300%;
+        display: flex;
+        flex-direction: row;
+        height: 35vh;
+        flex-wrap: wrap;
+        background-color: rgb(3,1,56);
+        border-radius: 10px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .chocha {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: white;
+        margin-top: 10px; 
+        margin-left: 90px;
+    }
+    .leaf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: white;
+        margin-top: 4px;  
+        margin-right: 40px;
+    }
+    .jikky {
+        position: absolute;
+        top: 6385px;
+        left: 192px;
+        color: white;
+        font-size: 23px;
+    }
+    .jacky {
+        position: absolute;
+        top: 6385px;
+        left: 570px;
+        color: white;
+        font-size: 23px;
+    }
+    .jocky {
+        position: absolute;
+        top: 6385px;
+        left: 1050px;
+        color: white;
+        font-size: 23px;
+    }
+    .division {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 200px;
+    }
+    .conrainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: rgb(3,1,56);
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 20px;
+        padding-bottom: 290px;
+        justify-content: center;
+        position: relative;
+    }
+    .top {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: white;
+        margin-top: 10px; 
+    }
+    .divo1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        height: 20vh;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+    }
+    .olaf {
+        color: rgb(222,0,165);
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .choche {
+        font-size: 17px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .divo2 {
+        width: 100%;
+        display: flex;
+        height: 20vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        border-radius: 5px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .olab {
+        font-size: 15px;
+        color: rgb(3,1,56);
+        margin-top: 30px;
+    }
+    .divo3 {
+        width: 100%;
+        display: flex;
+        height: 20vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px; 
+        position: absolute;
+        top: 400px;
+        left: 0px;
+    }
+    .loyal {
+        width: 25px;
+        margin-top: 220px;
+        z-index: 400;
+        margin-left: -50px;
+    }
+    .layal {
+        width: 25px;
+        margin-top: 220px;
+        z-index: 400;
+        left: 50px;
+    }
+    .deve {
+        width: 21%;
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .deva {
+        width: 21%;
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .devi {
+        width: 21%;
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .devo {
+        width: 21%;
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .jem {
+        margin-top: -55px;
+        padding: 10px;
+        border: none;
+        background-color: rgb(222,0,165);
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        top: 600px;
+        left: 95px;
+    
+    }
+    .conhainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+    .neon {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        padding-bottom: 20px;
+    }
+    .jim {
+        color: rgb(222,0,165);
+        background-color: rgb(222,0,165);
+        margin-top: 10px;
+        margin-bottom: 40px;
+        width: 60px;
+        margin-left: 50px;
+        border: none;
+    }
+    .olob {
+        font-size: 16px;
+        color: rgb(3,1,56);
+        margin-top: 40px;
+        font-weight: 400;
+        margin-left: 5px;
+        margin-top: -30px;
+    }
+    .bony {
+        margin-top: 10px;
+        padding: 10px;
+        border: none;
+        margin-left:30px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: rgb(222,0,165);
+    }
+    .deve {
+        width: 80%;
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .deva {
+        width: 80%;
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .devi {
+        width: 80%;
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .devo {
+        width: 80%;
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .conbainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-left: 100px;
+        padding-bottom: 30px;
+        justify-content: left;
+    }
+    .ploner {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        padding: 20px 60px 20px;
+    }
+    .libi {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        margin-left: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+    .loner {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        color: rgb(222,0,165);
+    }
+    .piler {
+        font-size: 15px;
+    }
+    .container1234 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: rgb(237,237,238);
+        padding-top:30px;
+        padding-bottom: 30px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .lily {
+        width: 105%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 70px;
+    
+    }
+    .lg {
+        font-weight: 600;
+        font-size: 30px;
+        color: darkslategrey;
+    }
+    .lody {
+        font-weight: 300;
+        font-size: 30px;
+        color: darkslategrey;
+    }
+    .ololo {
+        font-weight: 500;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: darkslategrey;
+    }
+    .lilo {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .containercc {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: rgb(74,77,85);
+        padding-top: 50px;
+        padding-bottom: 150px;
+        padding-right: 50px;
+        padding-left: 10px;
+    }
+    .every {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+    .coco {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        margin-top: 20px;
+        transition: all 0.8s ease;
+    }
+    .coco:hover {
+        color: blue;
+    }
+    .coi {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+        transition: all 0.8s ease;    
+        
+    }
+    .coi:hover {
+        color: blue;
+    }
+    .laroi {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:500;
+        font-size: 16px;
+        color: white;
+        margin-top: 5px;
+        transition: all 0.8s ease;
+    }
+    .laroi:hover {
+        color: blue;
+    } 
+    .good {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .boy {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .deserves {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .favour {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .always {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .kill {
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        color: rgb(222,0,165);
+        font-size: 30px;
+    }
+    
+    .loop {
+        position: absolute;
+        top: 100px;
+        left: 160px;
+        color: rgb(222,0,165);
+        font-size: 30px;
+    }
+    .booky {
+        position: absolute;
+        top: 5960px;
+        font-size: 15px;
+        color: grey;
+        left: 0px;
+    }
+    .hour {
+        position: absolute;
+        top: 5960px;
+        left: 80px;
+        font-size: 15px;
+       
+    }
+    .starr {
+        position: absolute;
+        top: 5960px;
+        font-size: 15px;
+        color: grey;
+        left: 170px;
+    }
+    .spooky {
+        position: absolute;
+        top: 6310px;
+        font-size: 15px;
+        color: grey;
+        left: 0px;
+    }
+    .houi {
+        position: absolute;
+        top: 6310px;
+        font-size: 15px;
+        color:grey;
+        left: 80px;
+    }
+    .starry {
+        position: absolute;
+        top: 6310px;
+        font-size: 15px;
+        color: grey;
+        left: 170px;
+    }
+    .spookydopsy {
+        position: absolute;
+        top: 6650px;
+        font-size: 15px;
+        color: grey;
+        left: 0px;
+    }
+    .hola {
+        position: absolute;
+        top: 6650px;
+        font-size: 15px;
+        color: grey;
+        left: 80px;
+    }
+    .starra {
+        position: absolute;
+        top: 6650px;
+        font-size: 15px;
+        color: grey;
+        left: 170px;
+    }
+    .viperr {
+        margin-top: 95px;
+        padding: 5px 5px;
+        color: grey;
+        background: lightgrey;
+        margin-right: 230px;
+        border: none;
+    }
+    .viper1 {
+        margin-top: 75px;
+        padding: 1px 5px;
+        color: grey;
+        background: lightgrey;
+        margin-right: 230px;
+        border: none;
+    }
+    
+    .holii {
+    position: absolute;
+    top: 10px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 10px;
+}
+.stira {
+    position: absolute;
+    top: 4190px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 950px;
+}
+
+.land {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 5px
+}
+.lola {
+    position: absolute;
+    top: 300px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 200px;
+}
+.lind {
+    position: absolute;
+    top: 700px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 5px
+}
+.loli {
+    position: absolute;
+    top: 700px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 200px
+}
+.linda {
+    position: absolute;
+    top: 1040px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 200px
+}
+.lolo {
+    position: absolute;
+    top: 1040px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 5px
+}
+.lindar {
+    position: absolute;
+    top: 1350px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 5px
+}
+.sun {
+    position: absolute;
+    top: 1350px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 200px
+}
+.spookydipsy {
+    position: absolute;
+    top: 7220px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 5px;
+}
+.holia {
+    position: absolute;
+    top: 7220px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 100px;
+}
+.stara {
+    position: absolute;
+    top: 7220px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 200px;
+}
+.spookydapsy {
+    position: absolute;
+    top: 7520px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 5px;
+}
+.holii {
+    position: absolute;
+    top: 7520px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 100px;
+}
+.stira {
+    position: absolute;
+    top: 7520px;
+    font-size: 15px;
+    color: darkslategrey;
+    left: 200px;
+}
+.face {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 25px;
+    color: white;
+}
+.fice {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-size: 25px;
+    color: white;
+}
+.fece {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    font-size: 25px;
+    color: white;
+}
+.fzce {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    font-size: 25px;
+    color: white;
+}
+.fxce {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    font-size: 25px;
+    color: white;
+}
+.sipo {
+    position: absolute;
+    width: 30%;
+    top: 50px;
+    left: 248px;
+}
+.mop{
+    position: absolute;
+    top: 25px;
+    left: 183px;
+    font-size: 28px;
+    color: white;
+    background-color: rgb(222,0,165);
+    padding: 11px;
+    margin-right: 200px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn {
+    background: transparent;
+    color: rgb(222,0,165);
+    margin-left: 40px;
+    border: none;
+    font-size: 12px;
+    margin-top: 9px;
+    font-family: fantasy;
+    padding: 5px;
+    margin-right: 10px;
+    transition: all 0.8s ease;
+}
+
+.bto {
+    background-color: rgb(222,0,165);
+    margin-top: 12px;
+    border: none;
+    font-size: 13px;
+    color: white;
+    margin-left: 20px;
+    font-family: fantasy;
+    padding: 13px;
+    margin-left: 20px;
+}
+}

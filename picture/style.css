@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+.links {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.define {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+.link{
+    list-style: none;
+    font-weight: 180;
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(222,0,165);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.fa {
+    position: absolute;
+    top: 29px;
+    left: 380px;
+    color: rgb(222,0,165);
+    font-size: 30px;
+}
+.loop {
+    position: absolute;
+    top: 29px;
+    left: 273px;
+    color: rgb(222,0,165);
+    font-size: 30px;
+}
+.searchinput {
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.input {
+    width: 300px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+.mop{
+    position: absolute;
+    top: 21px;
+    left: 941px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(222,0,165);
+    padding: 11px;
+}
+.btn {
+    background: transparent;
+    color: rgb(222,0,165);
+    margin-left: 9px;
+    border: none;
+    font-size: 12px;
+    margin-top: 9px;
+    font-family: fantasy;
+    padding: 5px;
+}
+.bto {
+    background-color: rgb(222,0,165);
+    margin-top: 9px;
+    border: none;
+    font-size: 12px;
+    color: white;
+    margin-left: 8px;
+    font-family: fantasy;
+    padding: 15px;
+}
+.contain2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(3,1,56);
+    padding: 80px 80px;
+}
+.texty {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.pli {
+    font-size: 80px;
+    color: rgb(222,0,165);
+    font-weight: 900;
+    font-family: monospace;
+}
+.plo {
+    font-size: 80px;
+    color: white;
+    font-weight: 900;
+    font-family: monospace;
+}
